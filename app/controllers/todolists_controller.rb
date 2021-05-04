@@ -15,7 +15,7 @@ class TodolistsController < ApplicationController
   end
 
 def index
-  @list=List.all
+  @lists=List.all
 end
 
 def show
